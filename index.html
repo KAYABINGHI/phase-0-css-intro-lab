@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Introduction to CSS Lab</title>
-    <!-- Your code here! -->
+   <link rel="stylesheet" href="./style.css" />
   </head>
-
-  <body>
-
-    <div>
+     <body>
+      <h1>Introduction to CSS Lab</h1>
+      <p>In this lab, we will explore the differences between writing CSS and writing HTML.</p>
+    
+      <div>
       <h1 id='main-header'>How Does Writing CSS Differ From Writing HTML?</h1>
       <p>As we write CSS these are the type of questions we might ask ourselves:</p>
 
@@ -33,5 +34,37 @@
     </div>
 
   </body>
-
-</html>
+  <style>
+    body {
+      background-color: #00b3e6;
+      font-family: Helvetica, sans-serif;
+    }
+    h1 {
+      color: darkblue;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .perspective-questions {
+      color: rgb(8, 100, 0);
+      font-style: italic;
+    }
+    div {
+      width: 700px;
+      margin: auto;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      padding: 30px;
+      border: 1px solid darkgray;
+      background-color: white;
+    }
+    #main-header {
+      font-size: 22px;
+      text-align: center;
+      color: red;
+    }
+    .perspective-questions {
+      font-style: italic;
+    }
+    </style>
+</html> 
